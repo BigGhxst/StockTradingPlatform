@@ -57,3 +57,17 @@ A comprehensive Stock Trading Platform built in Java with a professional Graphic
 - Collections Framework
 - Timer (Market Simulation)
 
+
+## How to Run
+
+### Prerequisites
+- Java 17 or higher
+- IntelliJ IDEA (recommended) or any Java IDE
+
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BigGhxst/StockTradingPlatform.git
+    ```
+## GitHub Link
