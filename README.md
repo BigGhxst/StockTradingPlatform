@@ -71,3 +71,4 @@ A comprehensive Stock Trading Platform built in Java with a professional Graphic
    git clone https://github.com/BigGhxst/StockTradingPlatform.git
     ```
 ## GitHub Link
+https://github.com/BigGhxst/StockTradingPlatform.git
