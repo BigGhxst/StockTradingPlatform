@@ -68,6 +68,30 @@ public class Stock implements Serializable {
         return marketCap;
     }
 
+    public void setPreviousPrice(double previousPrice) {
+        this.previousPrice = previousPrice;
+    }
+
+    public void setOpenPrice(double openPrice) {
+        this.openPrice = openPrice;
+    }
+
+    public void setHighPrice(double highPrice) {
+        this.highPrice = highPrice;
+    }
+
+    public void setLowPrice(double lowPrice) {
+        this.lowPrice = lowPrice;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public void setMarketCap(double marketCap) {
+        this.marketCap = marketCap;
+    }
+
     public void setCurrentPrice(double currentPrice) {
         this.previousPrice = this.currentPrice;
         this.currentPrice = currentPrice;
@@ -77,14 +101,6 @@ public class Stock implements Serializable {
         if (currentPrice < lowPrice || lowPrice == 0) {
             this.lowPrice = currentPrice;
         }
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    public void setMarketCap(double marketCap) {
-        this.marketCap = marketCap;
     }
 
     public double getPriceChange() {
